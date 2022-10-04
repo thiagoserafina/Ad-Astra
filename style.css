@@ -122,7 +122,7 @@ main {
   width: 100%;
   gap: 50px;
   justify-content: center;
-  padding: 150px 0;
+  padding: 100px 0;
   flex-wrap: wrap;
 }
 
@@ -184,9 +184,9 @@ main {
   padding-bottom: 0;
 }
 
-#video {
-  margin: 20px;
-  width: 70%;
+iframe {
+  margin: 15px;
+  width: 100%;
   border-radius: 28px;
 }
 
@@ -197,6 +197,7 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 60px;
 }
 
 .about-container .about-text {
@@ -212,4 +213,53 @@ main {
   display: flex;
   flex-direction: row;
   align-items: center;
+  gap: 50px;
+}
+
+.text-img img {
+  max-width: 250px;
+}
+
+.contato {
+  padding: 25px;
+  border-radius: 25px;
+  background-color: #2f2e41;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contato button {
+  margin: 25px 0 0;
+  line-height: 30px;
+  width: 100px;
+  background-color: #120346;
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
+  border-radius: 20px;
+  appearance: none;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+  justify-content: center;
+}
+
+form .form-container {
+  align-items: center;
+}
+
+form .form-container label {
+  margin-right: 15px;
+}
+
+form .form-container input {
+  border-style: none;
+  border-radius: 20px;
+  line-height: 30px;
+  text-align: center;
 }
